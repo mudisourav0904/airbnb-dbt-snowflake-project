@@ -1,0 +1,8 @@
+sources:              #parent-key
+  - name: staging       #these are arrays
+    database: AIRBNB  
+    schema: staging
+    tables:
+      - name: listings      #key:value pairs
+      - name: bookings
+      - name: hosts

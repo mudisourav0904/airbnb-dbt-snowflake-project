@@ -1,7 +1,19 @@
+# Python virtual environment
+.venv/
+
+# dbt generated folders
 target/
 dbt_packages/
 logs/
+dbt_internal_packages/
 
-
+# Local config
 profiles.yml
 .user.yml
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
